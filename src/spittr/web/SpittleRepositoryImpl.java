@@ -14,7 +14,7 @@ public class SpittleRepositoryImpl implements SpittleRepository {
 	List<Spittle> listspittle = new ArrayList<Spittle>();
 	
 	for (int i=0; i<count; i++) {
-	    listspittle.add(new Spittle("Spittle " + i ,new Date()));
+	    listspittle.add(new Spittle("Spittle init " + i ,new Date()));
 	}
 	return listspittle;
     }
