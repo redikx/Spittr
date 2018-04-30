@@ -19,4 +19,10 @@ public class SpittleRepositoryImpl implements SpittleRepository {
 	return listspittle;
     }
 
+    @Override
+    public Spittle findOne(Long id) {
+	Spittle OneSpittle = new Spittle ("Only jeden Spittle", new Date());
+	return OneSpittle;
+    }
+
 }
